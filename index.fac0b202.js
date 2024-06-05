@@ -1,0 +1,2 @@
+var e=document.querySelector("tbody"),t=document.querySelector("thead"),n=document.createElement("th"),r=document.createElement("th"),o=document.querySelector("tfoot");n.textContent=t.rows[0].cells[1].innerText,r.textContent=n.innerText,t.rows[0].cells[4].insertAdjacentElement("beforebegin",n),o.rows[0].cells[4].insertAdjacentElement("beforebegin",r);for(var c=0;c<e.rows.length;c++){var l=e.rows[c],s=document.createElement("td");s.textContent=l.cells[1].innerText,l.cells[4].insertAdjacentElement("beforebegin",s)}
+//# sourceMappingURL=index.fac0b202.js.map
